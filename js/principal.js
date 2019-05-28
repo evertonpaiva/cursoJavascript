@@ -30,5 +30,6 @@ for(var i = 0; i < pacientes.length; i++){
       tdImc.textContent = imc.toFixed(2);
   } else {
       tdImc.textContent = "Altura e/ou peso inválidos!"
+      paciente.classList.add("paciente-invalido");
   }
 }
